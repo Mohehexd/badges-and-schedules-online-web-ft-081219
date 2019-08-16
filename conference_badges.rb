@@ -24,6 +24,7 @@ def printer(array)
       assign_rooms(array).each do |rooms|
       puts "#{rooms}"
     end
+  end
 end
 
 #define badge_maker
