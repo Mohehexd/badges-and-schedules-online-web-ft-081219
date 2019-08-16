@@ -25,7 +25,11 @@ def printer(array)
     end
 end
 
-
+def printer(array)
+     assign_rooms(array).each do |rooms|
+      puts "#{rooms}"
+    end
+end
 #define badge_maker
 # define conference_badges
 # return list of badge messages
